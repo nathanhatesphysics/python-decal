@@ -1,0 +1,21 @@
+1. What are 3-5 (or more) commands that you can use on terminal and what do they do? What language is your computer terminal in?
+
+cd: changes directory, ls: lists all files/directories in the directory, cp: copies file and moves it to a specified directory. Currently in this terminal, my computer language is Bash.
+
+2. Do you have pets? What kind?
+
+No pets, but I used to have a fish named Ryu, I named them after a street fighter character when I was 8
+
+3. If you run across an error, what would your first course of action be?
+
+Look at the error code/message. If the error code doesn't make sense, search the error code on the internet.
+
+4. Funniest thing that happened to you in high school.
+
+I spent 3 years building robots in FRC. None of them were good. We never won a single competition.
+
+5. What is a python script? (Keep it simple)
+
+A python script specifies a set of python commands to be run in the python application all at once. A script allows you to run multiple simultaneous commands with just one.
+
+

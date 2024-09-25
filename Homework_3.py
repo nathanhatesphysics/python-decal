@@ -3,7 +3,7 @@
 def computePower(x, y):
     number_initial = x
     number_current = 1
-    for i in range(0, y):
+    for i in range(1, y + 1):
         number_current *= (number_initial)
     return (number_current)
 

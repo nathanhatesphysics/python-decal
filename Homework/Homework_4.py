@@ -1,7 +1,7 @@
 # Problem 2
 # 2.1
 numbers_1_through_20 = []
-for i in range(1, 21):
+for i in range(0, 21):
     numbers_1_through_20.append(i)
 print(numbers_1_through_20)
 
@@ -30,14 +30,14 @@ which is turn every element in the list into a tuple with the first value being 
 # 2.3
 first_15 = squared_numbers
 def first_15_list(input_list):
-    output_list = input_list[0:15]
+    output_list = input_list[:15]
     return output_list
 print(first_15_list(first_15))
 
 # 2.4
 every_5th = squared_numbers
 def get_every_5th(input_list):
-    output_list = input_list[::4]
+    output_list = input_list[4::5]
     return output_list
 print(get_every_5th(every_5th))
 
@@ -45,15 +45,13 @@ print(get_every_5th(every_5th))
 fancy_list = squared_numbers
 def slice_and_stride(input_list):
     """
-    >>> slice_and_stride([1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400])
-    [225, 144, 81, 36, 9]
+    >>> slice_and_stride([0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400])
+    [400, 289, 196, 121, 64, 25, 4]
     """
-    output_list = input_list[::-1][3:][::-1][2::3][::-1]
+    output_list = input_list[:30][2::3][::-1]
     return output_list
 print(slice_and_stride(fancy_list))
-"""
-confused on what the question is asking? just sliced last 3 elements, then listed the 3rd elements in reverse order
-"""
+
 
 # Problem 3: 2D Lists
 def create_2d_list():
